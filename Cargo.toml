@@ -1,0 +1,13 @@
+[package]
+name = "rtsort"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.1.18", features = ["derive"] }
+crossterm = "0.23"
+float-ord = "0.3.2"
+nom = "7.1.1"
+tokio = { version = "1", features = ["rt", "io-util", "io-std", "time", "macros", "signal", "sync"] }
